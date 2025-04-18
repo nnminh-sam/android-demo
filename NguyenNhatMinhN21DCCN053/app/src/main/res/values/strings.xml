@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NguyenNhatMinhN21DCCN053</string>
+    <string name="value_tab_1">Tab 1</string>
+    <string name="value_tab_2">Tab 2</string>
+    <string name="value_tab_3">Tab 3</string>
+    <string name="value_edit_profile">Edit profile</string>
+    <string name="value_change_profile_picture">Update Avatar</string>
+    <string name="hint_username">Username</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_old_password">Current password</string>
+    <string name="hint_new_password">New password</string>
+</resources>

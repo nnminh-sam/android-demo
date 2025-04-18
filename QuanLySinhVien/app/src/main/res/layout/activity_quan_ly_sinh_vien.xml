@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuanLySinhVienActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lop"
+            android:textSize="20dp" />
+
+        <Spinner
+            android:id="@+id/spLopHoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Ma Sinh Vien"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edtMaSV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_edittext"
+            android:ems="10"
+            android:hint="Vui long nhap ma sinh vien"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            app:backgroundTint="@null" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="Ho ten sinh vien"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edtHotenSV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_edittext"
+            android:ems="10"
+            android:hint="Vui long nhap ho ten sinh vien"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp"
+            app:backgroundTint="@null" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ngay thang nam sinh"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/edtNgaySinhSV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custom_edittext"
+            android:ems="10"
+            android:hint="Vui long nhap ngay thang sinh vien"
+            android:inputType="text"
+            android:paddingLeft="10dp"
+            app:backgroundTint="@null" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btnLuSinhVien"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button"
+                android:text="Luu"
+                android:textSize="20dp"
+                app:backgroundTint="@null" />
+
+            <Button
+                android:id="@+id/btnThoatSinhVien"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/custom_button"
+                android:text="Thoat"
+                android:textSize="20dp"
+                app:backgroundTint="@null" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/lvDanhsachSinhvien"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
